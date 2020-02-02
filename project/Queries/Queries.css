@@ -1,0 +1,49 @@
+html {
+	background-image: url(queries.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container {
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+.button {
+	width: 22%;
+	text-align: top;
+	margin-left: 30px;
+	margin-top: 5px;
+	color: black;
+	background-color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 20px 30px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #555;
+}
+
+.button_e {
+	text-align: top;
+	cursor: pointer;
+	border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: #ccc;	
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+}	
+
+.button:hover {
+	background-color: tomato;
+}
+
+.button_e:hover {
+	padding: 5px 10px;
+	font: bold;
+	font-size: 15px;
+}

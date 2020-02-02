@@ -1,0 +1,13 @@
+DELETE FROM `belongs_to` WHERE `ISBN`='14882' and`catname`='History';
+DELETE FROM `reminder` WHERE `empid`='3' and`memid`='1' and`ISBN`='14882' and`copynr`='12' and`date_of_borrowing`='2019-08-23' and`date_of_reminder`='2019-09-23';
+DELETE FROM `written_by` WHERE `ISBN`='14882' and`authid`='5';
+DELETE FROM `borrows` WHERE `memid`='1' and`copynr`='12' and`ISBN`='14882' and`date_of_borrowing`='2019-08-23';
+DELETE FROM `member` WHERE `memid`='1';
+DELETE FROM `copy` WHERE `copynr`='12' and`ISBN`='14882';
+DELETE FROM `book` WHERE `ISBN`='14882';
+DELETE FROM `temporary` WHERE `empid`='5';
+DELETE FROM `permanent` WHERE `empid`='4';
+DELETE FROM `employee` WHERE `empid`='5';
+DELETE FROM `publisher` WHERE `pubname`='Patakis';
+DELETE FROM `author` WHERE `authid`='5';
+DELETE FROM `category` WHERE `catname`='History';

@@ -1,0 +1,69 @@
+html {
+	background-image: url(views.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 1280px;
+}
+
+.container1 {
+	margin-top: 50px;
+	margin-left: 320px;
+}
+
+.container2 {
+	margin-top: 10px;
+	margin-left: 170px;
+}
+
+.button {
+	width: 25%;
+	background-color: white;
+	margin-left: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 20px 10px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+}
+
+.button_v {
+	width: 22%;
+	background-color: white;
+	margin-left: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 20px 10px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000;
+}
+
+.button1:hover {
+	color: white;
+	background-color: aqua;
+}
+
+.button2:hover {
+	color: white;
+	background-color: purple;
+}
+
+.button3:hover {
+	color: white;
+	background-color: green;
+}
+
+.button4:hover {
+	color: white;
+	background-color: yellow;
+}
+
+.button5:hover {
+	color: white;
+	background-color: red;
+}

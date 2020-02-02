@@ -1,0 +1,10 @@
+1)The database was made with the phpmyadmin tool of xampp(which uses MySQL). 
+So, it should work on every platform using MySQL.
+
+2)In order to view the UI the project folder must be put into the htdocs folder of xampp and then type:
+"localhost/project/HomePage.html" in Google Chrome(It may also run in other browsers but we have not tested it).
+
+3)In the database folder is the code for the creation of the database in MySQL
+alongside queries, triggers, views, inserts, updates and deletes.
+
+4)In the project folder is the code for the creation of the User Interface[see 2)].

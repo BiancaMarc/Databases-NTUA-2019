@@ -1,0 +1,8 @@
+table, th, td {
+	border: 1px solid;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+table {
+	width: 100%;
+}
